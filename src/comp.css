@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden; 
+    margin: 0; 
+    padding: 0;
+    background-image: url('./assets/pizza.jpeg');
+    color: white;
+}
+
+.inputbox {
+    box-sizing: border-box; 
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+input[type="text"] {
+    width: 200px; /* Adjust the width as needed */
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    max-height: 50px; /* Set a maximum height */
+    overflow-y: auto; /* Make it scrollable */
+  }
+
+#pizza{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.selectbtn{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color ease 0.5s;
+}
+
+.selectbtn:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.selectedbtn{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    border: 3px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.orderbtn{
+    padding: 10px 30px;
+    color: white;
+    background-color: red;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color ease 0.3s;
+}
+
+.orderbtn:hover{
+    background-color: rgb(181, 0, 0);
+}
+  
