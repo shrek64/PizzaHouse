@@ -1,6 +1,7 @@
 {
   "name": "newreact",
   "private": true,
+  "homepage": "https://github.com/shrek64/PizzaHouse",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
